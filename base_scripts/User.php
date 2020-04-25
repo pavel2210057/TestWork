@@ -47,20 +47,6 @@ class User {
         return true;
     }
 
-    public function updateUser(array $data) : void {
-        $data_string = sprintf("name=%s,surname=%s,pass=%s,avatar=%s",
-            $data['name'],
-            $data['surname'],
-            $data['pass'],
-            $data['avatar']
-        );
-        $mail = $data['mail'];
-
-        $this->sql->query("
-            UPDATE users SET $data_string WHERE mail=$mail
-        ");
-    }
-
     public function deleteUserByMail(string $mail) : void {
         $this->sql->query("
             DELETE FROM users WHERE mail='$mail'
