@@ -1,0 +1,9 @@
+{
+  "header": "User page",
+  "name-label": "Name: ",
+  "surname-label": "Surname: ",
+  "mail-label": "E-Mail: ",
+  "uid-label": "ID: ",
+  "logout-btn": "Logout",
+  "remove-btn": "Remove Account"
+}

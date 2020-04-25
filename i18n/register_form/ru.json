@@ -1,0 +1,10 @@
+{
+  "header": "Регистрация пользователя",
+  "name-input-label": "Имя:",
+  "surname-input-label": "Фамилия:",
+  "mail-input-label": "E-Mail:",
+  "pass-input-label": "Пароль:",
+  "avatar-input-label": "Аватар(опционально):",
+  "register-btn": "Регистрация",
+  "login-form-ref": "Вход"
+}

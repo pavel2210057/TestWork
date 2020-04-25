@@ -1,0 +1,10 @@
+{
+  "header": "User Register",
+  "name-input-label": "Name:",
+  "surname-input-label": "Surname:",
+  "mail-input-label": "E-Mail:",
+  "pass-input-label": "Password:",
+  "avatar-input-label": "Avatar(optional):",
+  "register-btn": "Register",
+  "login-form-ref": "Login"
+}

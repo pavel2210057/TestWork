@@ -1,0 +1,47 @@
+:root {
+    --form-bg: white;
+    --base-transition: 300ms;
+}
+
+body {
+    margin: 0;
+}
+
+body * {
+    outline: 0;
+    transition: var(--base-transition);
+}
+
+#header {
+    text-align: center;
+}
+
+.base-form {
+    position: relative;
+    margin: auto;
+    text-align: center;
+    top: 10px;
+    width: 450px;
+    background-color: var(--form-bg);
+}
+
+.base-form__item {
+    margin-bottom: 20px;
+}
+
+.base-form__item input {
+    position: relative;
+    right: 0;
+    width: 30%;
+}
+
+.base-form__item-label {
+    position: absolute;
+    left: 0;
+}
+
+#lang-btn-outer {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}

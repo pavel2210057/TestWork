@@ -1,0 +1,9 @@
+{
+  "header": "Страница пользователя",
+  "name-label": "Имя: ",
+  "surname-label": "Фамилия: ",
+  "mail-label": "E-Mail: ",
+  "uid-label": "ID: ",
+  "logout-btn": "Выйти",
+  "remove-btn": "Удалить аккаунт"
+}
